@@ -4,7 +4,7 @@ let school = {
     'mascot' : 'middle aged man',
 }
 
-let string = `${school.name} has an average class size of ${school['average class size']} and their mascot is a ${school['middle aged man']}`
+let string = `${school.name} has an average class size of ${school['average class size']} and their mascot is a ${school['mascot']}`
 
 document.getElementById("result").innerHTML = string;
 
